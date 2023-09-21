@@ -1,0 +1,24 @@
+h1 {
+    
+}
+
+h2 {
+
+
+}
+
+h3 {
+
+
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.animal-section {
+    display: flex;
+    justify-content: space-around;
+
+}
