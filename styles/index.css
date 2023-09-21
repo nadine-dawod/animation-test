@@ -1,15 +1,23 @@
 h1 {
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    color: rgb(236, 225, 79);
+    font-size: 70px;
 }
 
 h2 {
-
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgba(145, 140, 75, 0.7);
+    font-size: 55px;
 }
 
 h3 {
-
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(209, 198, 40);
+    font-size: 35px;
+    position: relative;
+        top: 20px;
 }
 
 img {
@@ -20,5 +28,5 @@ img {
 .animal-section {
     display: flex;
     justify-content: space-around;
-
 }
+
