@@ -20,13 +20,28 @@ h3 {
         top: 20px;
 }
 
-img {
-    width: 400px;
-    height: 400px;
-}
-
-.animal-section {
+.ctn {
+    position: relative;
+        top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+.img--square {
+    fill:darkgoldenrod;
+    stroke-width: 2;
+    stroke: black;
+
+}
+
+.img--triangle {
+    fill:darkgoldenrod;
+    stroke-width: 2;
+    stroke: black;
+}
+
+.img-cirlce {
+    fill:darkgoldenrod;
+    stroke-width: 2;
+    stroke: black;
+}
