@@ -20,6 +20,11 @@ h3 {
         top: 20px;
 }
 
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
 .ctn {
     position: relative;
         top: 20px;
@@ -27,21 +32,49 @@ h3 {
     justify-content: center;
 }
 
-.img--square {
-    fill:darkgoldenrod;
-    stroke-width: 2;
-    stroke: black;
-
-}
-
-.img--triangle {
+.img {
     fill:darkgoldenrod;
     stroke-width: 2;
     stroke: black;
 }
 
-.img-cirlce {
-    fill:darkgoldenrod;
-    stroke-width: 2;
-    stroke: black;
+/* using css transition property */
+.square-1 {
+    position: relative;
+        left: 150px;
+    width: 300px;
+    height: 300px;
+    background-color: darkgoldenrod;
+    border-color: black;
+    border-style: solid;
+    transition: width 2s, height 2s, transform 4s;
+    transition-timing-function: ease-in-out;
+}
+.square-1:hover {
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg)
+}
+
+/* using keyframe animations */
+
+@keyframes square-2 {
+    from {background-color: darkgoldenrod; width: 300px; height: 300px;}
+    to {background-color: cadetblue; width: 400px; height: 400px;}
+}
+
+.square-2 {   
+    position: relative;
+        left: 150px;
+    width: 300px;
+    height: 300px;
+    background-color: darkgoldenrod; 
+    border-style: solid;
+    border-color: black;
+    animation-name: square-2; 
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
 }
