@@ -18,18 +18,14 @@ h3 {
     font-size: 35px;
     position: relative;
         top: 20px;
+        left: 20px;
 }
 
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-}
-
-.ctn {
     position: relative;
-        top: 20px;
-    display: flex;
-    justify-content: center;
+        left: 20px;
 }
 
 .img {
@@ -77,4 +73,19 @@ p {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease;
+}
+
+/* using an external library animations */
+
+.animate__animated {
+    position: relative;
+     left: 150px;
+}
+
+.square-3 {
+    width: 300px;
+    height: 300px;
+    fill: darkgoldenrod; 
+    stroke: black;
+    stroke-width: 15;
 }

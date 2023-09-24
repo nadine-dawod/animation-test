@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
     <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Animations</title>
 </head>
 <body>
 
-    <h1>COOL SHAPES</h1>
-    <h2>A WEBPAGE WITH COOL SHAPES THAT MOVES</h2>
+    <h1>COOL SHAPE</h1>
+    <h2>A WEBPAGE WITH COOL SQUARES THAT MOVES</h2>
 
 
     <h3>a cool square</h3>
@@ -22,8 +24,13 @@
     <div class="square-2"></div>
 
 
-    <h3>a cool circle</h3>
+    <h3>a third cool square</h3>
     <p>using animations from external library</p>
-    <div class="square-3"></div>
+        <div class="animate__animated animate__heartBeat"> 
+            <svg width="300" height="300">
+            <rect class="square-3" width="300" height="3000"></rect>
+            </svg>
+        </div>
+
 </body>
 </html>
